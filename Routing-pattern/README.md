@@ -4,6 +4,10 @@
 
 The Routing pattern is a workflow that classifies an input and directs it to a specialized follow-up task. It acts as an intelligent dispatcher that analyzes incoming requests and routes them to the most appropriate handler based on the content or characteristics of the input.
 
+From Anthropic:  
+<img width="907" height="393" alt="image" src="https://github.com/user-attachments/assets/82456eee-0ff1-409d-a407-e7f0825cf6fc" />
+
+
 ### Key Details
 
 **Purpose**: The main goal of routing is to enable separation of concerns and build more specialized prompts for different types of inputs. Without routing, trying to optimize a single prompt for all types of inputs can hurt performance on specific cases.
